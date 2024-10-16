@@ -1,0 +1,53 @@
+1. HTML:
+
+! e entrer = aparece todo "cabeçário do html"
+
+link rel="stylesheet" href="favicon.ico" type="image/x-icon"
+
+colocarei link do arq css, fonte ----- rel tipo de arquivo e href é o local/enderço/url ---- stylesheet acho que é folha de estilo, atributo do rel ---- preconnect além de resolver o dns, faz conexão com o endereço (DNS - traduzir endereço do href para ip) -->
+
+2 . O que é HtML? 
+
+HyperText Markup language - Linguagem de Marcação de texto
+hipertexto - textos com formatação, imagens, multimídias e links
+
+markup - processo de formatação do texto e de adicionar símbolos que mostra como será ebibido o texto. é no html
+
+html - 1990 - Tim Berners-Lee 
+
+HTML É UMA LINGUAGEM DE MARCAÇÃO ,  e não, não é de progamação (há quem diga que é)
+
+2.1 - Como funciona o html:
+
+por marcadores/tags - criados com o sinal < > - descreve estrutura, aparência, e permite o encapsulamento de linguagem script
+
+extensão .html ou .htm
+
+é interpretado pelo navegador que apresenta a interface gráfica para o usuário
+
+maioria dos marcadores possui formato de abertura < > e fechamento < />
+
+NÃO É CASE SENSITIVE -  tanto faz letras maiúsculas ou minúsculas
+
+3. Atributos
+
+define propriedade do marcador como tamanho, nome, identificador, classes css e valores
+<marcador atributo='valor'> texto </ marcador>
+
+4. Estrutura básica de uma html
+
+<!DOCTYPE html> - tipo de documento é html - 1° informação de todas
+
+<mtml>
+delimita área onde se colocará marcadores html para que seja interpretado pelo navegador
+</html>
+
+<head>
+cabeçalho - marcadores metadados, sripts, folha de estilo, título da página
+
+- ex: favicon - is a small image displayed nest to the page litle in the browser tab - left of the page title - (imagem que fica ao lado direito do título na aba do navegador (browser tab) ) 
+https://www.favicon.cc/ - pode criar su própria imagem
+
+- ex: stylesheet - 
+
+</head>

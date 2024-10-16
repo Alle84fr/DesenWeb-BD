@@ -1,0 +1,140 @@
+/* diretivas*/
+@charset "UTF-8";
+@font-face {
+    font-family: "JuraDemiBold";
+    src: url(../06_FONTE/JuraDemiBold.ttf);
+}
+
+/* quero que todo doc tenha esta fonte*/
+* {
+    font-family: "JuraDemiBold";
+    }
+
+/* fundo do body*/
+body{
+          background-image:url(../05_IMAGE/03_FREEPIK.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          height: 100vh;
+          margin: 0;
+}
+
+.options{
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+input[type ="radio"]{
+          display: none;
+}
+
+label {
+          display: inline-block;
+          padding: 30px 40px;
+}
+/* fundo do body fim*/
+
+/*botão*/
+/*background*/
+.options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+/*botão*/
+.buttonO{
+    background: rgb(241, 241, 241);
+    padding: 19px;
+    margin: 20px 10px 20px 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    box-shadow: inset 3px 8px 8px rgba(97, 97, 96, 0.16),
+    3px 7px 5px rgba(255, 254, 254, 0.6);
+    width: 100px;
+    
+}
+
+.buttonO a {
+    color: rgb(166, 138, 100);
+    text-decoration: none;
+}
+
+.buttonB{
+    background: rgb(241, 241, 241);
+    padding: 19px;
+    margin: 20px 10px 20px 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    box-shadow: inset 3px 8px 8px rgba(97, 97, 96, 0.16),
+    3px 7px 5px rgba(255, 254, 254, 0.6);
+    width: 193px;
+    
+}
+
+.buttonB a {
+    color: rgb(166, 138, 100);
+    text-decoration: none;
+}
+
+.buttonL{
+    background: rgba(241, 241, 241);
+    padding: 19px;
+    margin: 20px 10px 20px 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 15px;
+    box-shadow: inset 3px 8px 8px rgba(97, 97, 96, 0.16),
+                3px 7px 5px rgba(255, 254, 254, 0.6);
+    width: 100px;
+    
+}
+
+.buttonL a {
+    color: rgb(166, 138, 100);
+    text-decoration: none;
+}
+/*botão fim*/
+
+/*h1 e p*/
+.texto{
+    width: 550px;
+    height: 550px;
+    margin: 25px auto;
+    padding: 30px 50px 30px 50px;
+}
+
+.glass{
+    background: linear-gradient(135deg, rgba(97, 97, 96, 0.1), rgba(97, 97, 96, 0),);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(255, 254, 254, 0.619);
+    box-shadow: 3px 9px 8px rgba(97, 97, 96, 0.3),
+                3px 7px 5px rgba(255, 254, 254, 0.6);
+}
+
+h1{
+    color: rgb(182, 173, 144);
+    text-align: center;
+}
+
+h3{
+    color: rgb(182, 173, 144);
+    text-align: justify;
+}
+
+p{
+    color: rgb(182, 173, 144);
+    text-align: right;
+    font-size: 12px;
+}
