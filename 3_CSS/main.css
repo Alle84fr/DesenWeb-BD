@@ -66,6 +66,10 @@ label {
     text-decoration: none;
 }
 
+.buttonO:hover a {
+    color: rgb(163, 196, 243);
+    }
+
 .buttonB{
     background: rgb(241, 241, 241);
     padding: 19px;
@@ -85,6 +89,10 @@ label {
     text-decoration: none;
 }
 
+.buttonB:hover a {
+    color: rgb(207, 186, 240);
+    }
+
 .buttonL{
     background: rgba(241, 241, 241);
     padding: 19px;
@@ -103,6 +111,10 @@ label {
     color: rgb(166, 138, 100);
     text-decoration: none;
 }
+
+.buttonL:hover a {
+    color: rgb(255, 207, 210);
+    }
 /*botão fim*/
 
 /*h1 e p*/
@@ -123,18 +135,18 @@ label {
                 3px 7px 5px rgba(255, 254, 254, 0.6);
 }
 
-h1{
-    color: rgb(182, 173, 144);
+h2{
+    color: rgb(127, 79, 36);
     text-align: center;
 }
 
 h3{
-    color: rgb(182, 173, 144);
+    color: rgb(127, 79, 36);
     text-align: justify;
 }
 
 p{
-    color: rgb(182, 173, 144);
+    color: rgb(127, 79, 36);
     text-align: right;
     font-size: 12px;
 }

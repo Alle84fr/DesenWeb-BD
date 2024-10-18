@@ -7,10 +7,7 @@
         padding: 0;
     }
 
-    body {
-        background-color: white;
-        color: black;
-    }
+
 </style>
 
 
@@ -76,9 +73,45 @@
     <td style=
     "width: 25px; 
     height: 15px; 
-    border-radius: 0 25px 0 25px; background-color: rgba(97, 97, 96, 0.16);">
+    border-radius: 0 25px 0 25px; background-color: rgba(229, 230, 230);">
     </td>
-    <td style="border: none;">RGBA(97, 97, 96, 0.16)</td>
+    <td style="border: none;">RGB(229, 230, 230)</td>
+  </tr>
+
+  <tr>
+    <td style=
+    "width: 25px; 
+    height: 15px; 
+    border-radius: 0 25px 0 25px; background-color: rgba(202, 202, 204, 0.253);">
+    </td>
+    <td style="border: none;">RGBA(202, 202, 204, 0.253)</td>
+  </tr>
+
+  <tr>
+    <td style=
+    "width: 25px; 
+    height: 15px; 
+    border-radius: 0 25px 0 25px; background-color: rgb(163, 196, 243);">
+    </td>
+    <td style="border: none;">RGB(163, 196, 243)</td>
+  </tr>
+
+  <tr>
+    <td style=
+    "width: 25px; 
+    height: 15px; 
+    border-radius: 0 25px 0 25px; background-color: rgb(207, 186, 240);">
+    </td>
+    <td style="border: none;">RGB(207, 186, 240)</td>
+  </tr>
+
+  <tr>
+    <td style=
+    "width: 25px; 
+    height: 15px; 
+    border-radius: 0 25px 0 25px; background-color: rgb(255, 207, 210);">
+    </td>
+    <td style="border: none;">RGB(255, 207, 210)</td>
   </tr>
 
  </table>

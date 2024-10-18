@@ -1,0 +1,171 @@
+@charset "UTF-8";
+@font-face {
+    font-family: "JuraDemiBold";
+    src: url(../06_FONTE/JuraDemiBold.ttf);
+}
+
+/* quero que todo doc tenha esta fonte*/
+* {
+    font-family: "JuraDemiBold";
+    }
+
+/* fundo do body*/
+body{
+          background-image:url(../05_IMAGE/01_FREEPIK.jpg);
+          background-repeat: no-repeat;
+          background-size: cover;
+          background-position: center;
+          height: 100vh;
+          margin: 0;
+}
+
+.options{
+display: flex;
+gap: 20px;
+flex-wrap: wrap;
+}
+
+input[type ="radio"]{
+          display: none;
+}
+
+label {
+          display: inline-block;
+          padding: 30px 40px;
+}
+/* fundo do body fim*/
+
+/*botão*/
+/*background*/
+.options {
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+
+
+/*botão*/
+.buttonO{
+background: rgb(229, 230, 230);
+padding: 19px;
+margin: 20px 10px 20px 10px;
+border: none;
+border-radius: 50px;
+cursor: pointer;
+font-size: 15px;
+box-shadow: inset 3px 8px 8px rgba(97, 97, 96, 0.16),
+                    3px 7px 8px rgba(255, 254, 254, 0.73);
+width: 100px;
+
+}
+
+.buttonO a {
+color: rgb(166, 138, 100);
+text-decoration: none;
+}
+
+/*mudar cor passar por cima*/
+
+.buttonO:hover a {
+color: rgb(163, 196, 243);
+}
+/**/
+
+.buttonL{
+background: rgb(229, 230, 230);
+padding: 19px;
+margin: 20px 10px 20px 10px;
+border: none;
+border-radius: 50px;
+cursor: pointer;
+font-size: 15px;
+box-shadow: inset 3px 8px 8px rgba(97, 97, 96, 0.16),
+                  3px 7px 8px rgba(255, 254, 254, 0.73);
+width: 100px;
+
+}
+
+.buttonL a {
+color: rgb(166, 138, 100);
+text-decoration: none;
+}
+
+.buttonL:hover a {
+color: rgb(207, 186, 240);
+ }
+
+ /**/
+
+.buttonB{
+background: rgba(229, 230, 230, 0.96);
+padding: 19px;
+margin: 20px 10px 20px 10px;
+border: none;
+border-radius: 50px;
+cursor: pointer;
+font-size: 15px;
+box-shadow: inset 3px 8px 8px rgba(97, 97, 96, 0.16),
+                3px 7px 8px rgba(255, 254, 254, 0.73);
+width: 180px;
+height: 52px;
+}
+    
+.buttonB a {
+color: rgb(166, 138, 100);
+text-decoration: none;
+}
+    
+/*mudar cor passar por cima*/
+    
+.buttonB:hover a {
+color: rgb(255, 207, 210);
+}
+    
+/*botão fim*/
+
+.texto{
+    width: 821px;
+    height: 602px;
+    margin: 50px auto;
+    padding: 30px 50px 30px 50px;
+   
+}
+
+.glass{
+    background: linear-gradient(135deg, rgba(97, 97, 96, 0.1), rgba(97, 97, 96, 0),);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border:1px solid rgba(202, 202, 204, 0.253);
+    box-shadow: 9px 9px 8px rgba(97, 97, 96, 0.3),
+                -9px 9px 8px rgba(255, 254, 254, 0.3);
+}
+
+h2{
+    color: rgb(127, 79, 36);
+    text-align: center;
+}
+
+h3{
+    color: rgb(127, 79, 36);
+    text-align: justify;
+}
+
+p{
+    color: rgb(127, 79, 36);
+    text-align: justify;
+    font-size: medium;
+   
+}
+
+.pp{
+    color: rgb(127, 79, 36);
+    text-align: right;
+    font-size: 13px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(211, 114, 29)
+}
