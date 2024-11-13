@@ -7,19 +7,36 @@
 
           <link rel="stylesheet" href="../3_CSS/loging.css">
           <link real="icon" href="favicon.ico" type="image/x-icon">>
+
+          <script src="../02_JS/loging.js"></script>
   
 </head>
 
 <body>
         
         <div class="options">
-                <button type="button" class="buttonO"><a href="myself.html">O eu</a></button>
+                <button type="button" class="buttonO"><a href="main.html">Home</a></button>
                 <button type="button" class="buttonB"><a href="Bd.html">Banco de Dados</a></button>
                 <button type="button" class="buttonL"><a href="loging.html">Login</a></button>
         </div>
 
-        <div class="logs">
-                
+        <div class="log">
+                <label for="nome">Nome:</label>
+                <input type="text" id="name" class="name" name="name"/><br>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" class="email" name="email"/><br>
+                <label for="cpf">CPF</label>
+                <input type="number" id="cpf" class="cpf" name="cpf"/><br>
+                <label for="data_nascimento">Data de nascimento:</label>
+                <input type="date" id="nasci" class="nasci" name="nasci"/><br>
+                <label for="termo">Termo::</label>
+                <input type="checkbox" id="termo" class="termo" name="termo"/>
+                <a href="termo.html" target="_blank">Termo</a><br> <!--target abre uma nova aba e o usuário não vai perder o que já escreveu no cadastro -->
+                <label for="salvar">Salvar:</label>
+                <input type="button" id="salvar" class="salvar" name="salvar" onclick="Cadastrando()"/>
+
+
+
         </div>
 </body>
 </html>
