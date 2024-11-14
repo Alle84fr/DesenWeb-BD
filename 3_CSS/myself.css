@@ -124,15 +124,18 @@ color: rgb(255, 207, 210);
     
 /*botão fim*/
 
-.texto{
+.texto1{
     width: 821px;
     height: 602px;
-    margin: 50px auto;
-    padding: 30px 50px 30px 50px;
+    margin: 5px 25px 5px 25px;
    
 }
 
-.glass{
+.glass1{
+    position: relative;
+    width: 61%;
+    height: 80%;
+    left: 20%;
     background: linear-gradient(135deg, rgba(97, 97, 96, 0.1), rgba(97, 97, 96, 0),);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -145,17 +148,20 @@ color: rgb(255, 207, 210);
 h2{
     color: rgb(127, 79, 36);
     text-align: center;
+    margin: 10px 15px 5px 25px;
 }
 
 h3{
     color: rgb(127, 79, 36);
     text-align: justify;
+    margin: 10px 15px 5px 55px;
 }
 
 p{
     color: rgb(127, 79, 36);
     text-align: justify;
     font-size: medium;
+    margin: 10px 15px 5px 55px;
    
 }
 

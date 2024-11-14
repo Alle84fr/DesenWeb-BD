@@ -20,21 +20,25 @@
                 <button type="button" class="buttonL"><a href="loging.html">Login</a></button>
         </div>
 
-        <div class="log">
-                <label for="nome">Nome:</label>
-                <input type="text" id="name" class="name" name="name"/><br>
-                <label for="email">E-mail:</label>
-                <input type="email" id="email" class="email" name="email"/><br>
-                <label for="cpf">CPF</label>
-                <input type="number" id="cpf" class="cpf" name="cpf"/><br>
-                <label for="data_nascimento">Data de nascimento:</label>
-                <input type="date" id="nasci" class="nasci" name="nasci"/><br>
-                <label for="termo">Termo::</label>
-                <input type="checkbox" id="termo" class="termo" name="termo"/>
-                <a href="termo.html" target="_blank">Termo</a><br> <!--target abre uma nova aba e o usuário não vai perder o que já escreveu no cadastro -->
-                <label for="salvar">Salvar:</label>
-                <input type="button" id="salvar" class="salvar" name="salvar" onclick="Cadastrando()"/>
-
+        <div class="geral" id="geral">
+                <h3>Cadastro</h3>
+                <div class="log" id="log">
+                        <!--<label for="nome">Nome:</label>-->
+                        <input type="text" id="name" class="name" name="name" placeholder="Nome"/><br>
+                        <!--<label for="email">E-mail:</label>-->
+                        <!-- plaveholder deixa texto na caixa, sem ser valor-->
+                        <input type="email" id="email" class="email" name="email" placeholder="E-mail"/><br>
+                        <!--<label for="cpf">CPF</label>-->
+                        <input type="number" id="cpf" class="cpf" name="cpf" placeholder="cpf"/><br>
+                        <label class="nas" for="data_nascimento">Data de nascimento:</label><br>
+                        <input type="date" id="nasci" class="nasci" name="nasci"/><br>
+                        <label class="ter"for="termo">Termo:</label>
+                        <input type="checkbox" id="termo" class="termo" name="termo"/>
+                        <a href="termo.html" target="_blank">Termo</a><br> <!--target abre uma nova aba e o usuário não vai perder o que já escreveu no cadastro -->
+                        <!--<label class="sal" for="salvar">Salvar:</label>-->
+                        <input type="button" id="salvar" class="salvar" name="salvar" onclick="Cadastrando()" value=" Salvar"/>
+                </div>
+        </div>        
 
 
         </div>
